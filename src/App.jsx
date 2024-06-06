@@ -1,8 +1,9 @@
-import Nav from "./Components/Nav"
+import Maintenance from "./Components/Maintenance"
+
 const App = () => {
   return (
     <>
-      <Nav/>
+      <Maintenance/>
     </>
   )
 }
