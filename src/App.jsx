@@ -7,7 +7,7 @@ const App = () => {
     <div className="app">
       <BrowserRouter>
         <nav className="navbar">
-          <h1 className="nav-title">Car Zone</h1>
+          <h1 className="nav-title"><span>C</span>ar <span>Z</span>one</h1>
           <ul>
             <li><Link to="/" className="nav-menu">Home</Link></li>
             <li><Link to="/" className="nav-menu">About</Link></li>

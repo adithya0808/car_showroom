@@ -15,7 +15,7 @@ ul {
     color: #ffffff;
     margin-left: 10px;
 }
-.nav-title::first-letter{
+span{
     color: #438BF1;
     font-size: 30px;
 }
