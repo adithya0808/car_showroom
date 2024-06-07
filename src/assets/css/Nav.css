@@ -7,9 +7,7 @@
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+    display: none;
     /* float: right; */
 }
 .nav-title{
@@ -24,8 +22,10 @@ ul {
 }
 
 /* media queries for mobile phone */
-@media screen and (max-width:280px) {
+@media screen and (min-width:680px) {
 ul{
-    display: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 }
