@@ -1,5 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar {
+    height: 10vh;
+    background-color: #1b263b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* float: right; */
+}
+.nav-title{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.nav-menu{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 40px;
+}
+
+/* media queries for mobile phone */
+@media screen and (max-width:350px) {
+ul{
+    display: none;
+}
 }
