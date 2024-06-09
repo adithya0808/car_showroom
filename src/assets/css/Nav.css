@@ -10,18 +10,25 @@ ul {
     display: none;
     /* float: right; */
 }
+.menu{
+    background-color: transparent;
+    margin-right: 20px;
+}
+.menu img{
+    height: 8vh;
+}
 .nav-title{
     text-decoration: none;
     color: #ffffff;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 span{
-    color: #438BF1;
+    color: #ffffff;
     font-size: 30px;
 }
 .nav-menu{
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffffe9;
     margin-right: 40px;
 }
 
@@ -31,5 +38,8 @@ ul{
     display: flex;
     flex-direction: row;
     list-style: none;
+}
+.menu{
+    display: none;
 }
 }
